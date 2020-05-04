@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+Become-A-Hackerrank-6-star-coder-Easily
+This repository consists of all the questions which are easy to solve and can make you a 6 star coder on hackerrank in no time.
 
-You can use the [editor on GitHub](https://github.com/shubham-godleon/GodleoN-HackerranK/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+These questions are basics which you should know and are easy for practice and boost your confidence.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have created this repo for my fellow underclassmen and all those who are starting with competitive programming.
 
-### Markdown
+These questions mainly comprise of basic STL , strings , search and sort , and basic DS algo.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shubham-godleon/GodleoN-HackerranK/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#MORE-POWER-TO-YOU #GodleoN's Repo. Happy Coding :)
