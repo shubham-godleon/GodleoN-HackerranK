@@ -9,4 +9,4 @@ These questions mainly comprise of basic STL , strings , search and sort , and b
 
 #MORE-POWER-TO-YOU #GodleoN's Repo. Happy Coding :)
 
-<a href="BASICS OF THE BASICS.html"> Let's Start. </a>
+<a href="BASICS OF THE BASICS"> Let's Start. </a>
