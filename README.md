@@ -1,4 +1,5 @@
-Become-A-Hackerrank-6-star-coder-Easily
+Become-A-Hackerrank-6-star-coder-Easily.
+
 This repository consists of all the questions which are easy to solve and can make you a 6 star coder on hackerrank in no time.
 
 These questions are basics which you should know and are easy for practice and boost your confidence.
