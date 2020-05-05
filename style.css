@@ -1,0 +1,28 @@
+h1{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.display-4{
+    font-weight: 400;
+    text-align: justify;
+}
+
+h4{
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+body{
+    background-color: #00bfa5;
+}
+
+.row{
+    padding: 20px;
+}
+
+.card{
+    background-color: #FFFFCC;
+}
