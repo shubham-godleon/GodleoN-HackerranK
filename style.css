@@ -1,6 +1,8 @@
-h1{
-    padding-left: 10px;
+h1.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+   padding-left: 10px;
     padding-top: 10px;
+    color: white;  
 }
 
 .display-4{
