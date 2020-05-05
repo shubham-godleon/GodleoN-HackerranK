@@ -10,4 +10,4 @@ These questions mainly comprise of basic STL , strings , search and sort , and b
 
 #MORE-POWER-TO-YOU #GodleoN's Repo. Happy Coding :)
 
-<a href="INDEX-1">Let's Start.</a>
+<a href="INDEX-1.html">Let's Start.</a>
