@@ -61,7 +61,7 @@ h4{
     margin-bottom: 0px;
 }
 
-body{
+#startbody{
     background-color: transparent;
     background-image: url(HackerRank_logo.png);
     background-position: center;
@@ -81,3 +81,10 @@ body{
     border: #00bfa5;
 }
 
+.card-body{
+    text-align: end;
+}
+
+.card-title{
+    text-align: left;
+}
