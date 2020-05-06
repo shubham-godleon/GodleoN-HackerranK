@@ -9,15 +9,25 @@ h1{
     text-align: center;
 }
 
+#indexhead{
+    font-size: 45px;
+    background-color: #00bfa5aa;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
 h4{
     padding: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: justify;
     font-weight: normal;
-}
+    font-size: 20px;
 
-body{
-    background-image: url('index.jpg');
 }
 
 .row{
@@ -25,5 +35,60 @@ body{
 }
 
 .card{
-    background-color: #FFFFFF;
+
+    background-color: #00bfa588;
+}
+
+.lead{
+    font-weight: normal;
+}
+
+#desp{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+#footer{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    background-color: #00bfa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#startbody{
+    background-color: transparent;
+    background-image: url(HackerRank_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#startH1{
+    background-color: #00bfa5aa;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #00bfa5;
+    border: #00bfa5;
+}
+
+.card-body{
+    text-align: end;
+
+}
+
+.card-title{
+    text-align: left;
 }
