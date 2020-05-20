@@ -1,6 +1,7 @@
 h1{
-    padding-left: 10px;
+   padding-left: 10px;
     padding-top: 10px;
+    color: #FFFFFF;  
 }
 
 .display-4{
@@ -42,11 +43,16 @@ h4{
     padding-bottom: 20px;
     text-align: justify;
     font-weight: normal;
+<<<<<<< HEAD
     font-size: 3.5vw;
 }
 
 .container{
   margin-bottom: 25px
+=======
+    font-size: 20px;
+
+>>>>>>> 22a11bf7343d21ad4906278be08bf044a49aa408
 }
 
 .row{
@@ -54,6 +60,7 @@ h4{
 }
 
 .card{
+
     background-color: #00bfa588;
     margin: 1.5vw;
 }
@@ -105,6 +112,7 @@ h4{
 
 .card-body{
     text-align: end;
+
 }
 
 .card-title{
