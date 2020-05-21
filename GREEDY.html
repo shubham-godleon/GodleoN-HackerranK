@@ -33,19 +33,19 @@
 
             <ol class="list-group scrollable">
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array">1. Minimum Absolute Difference In An Array</a> </li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array">1. Minimum Absolute Difference In An Array</a> </li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/marcs-cakewalk">2. Marc's Cakewalk</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/marcs-cakewalk">2. Marc's Cakewalk</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/luck-balance">3. Luck Balance</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/luck-balance">3. Luck Balance</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/maximum-perimeter-triangle">4. Maximum Peimeter Triangle</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/maximum-perimeter-triangle">4. Maximum Peimeter Triangle</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/priyanka-and-toys">5. Priyanka And Toys</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/priyanka-and-toys">5. Priyanka And Toys</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/mark-and-toys">6. Mark And Toys</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/mark-and-toys">6. Mark And Toys</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/greedy-florist">7. Greedy Florist</a> </li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/greedy-florist">7. Greedy Florist</a> </li>
 
             </ol>
 
@@ -55,8 +55,15 @@
 
       </div>
       <p id="footer">
-        This website is hosted by GitHub. <a href="https://github.com/ritwikranjan/GodleoN-HackerranK">View Repository</a>
+        This website is hosted by GitHub. <a class= "list-link" href="https://github.com/ritwikranjan/GodleoN-HackerranK">View Repository</a>
       </p>
+      <script type="text/javascript">
+        $(document).on('click', ".list-link", function(e){
+          e.preventDefault();
+          var url = $(this).attr('href');
+          window.open(url, '_blank');
+        });
+      </script>
   </body>
 
 </html>
