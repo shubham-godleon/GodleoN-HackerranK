@@ -17,7 +17,7 @@ h1{
 }
 
 .breadcrumb{
-    background-color: #00bfa5;
+    background-color: #00bfa5aa;
     margin-bottom: 0px;
 }
 
@@ -120,3 +120,6 @@ h4{
 .card-title{
     text-align: left;
 }
+.navbar_bg{
+    background-color: #00bfa5aa;
+   }
