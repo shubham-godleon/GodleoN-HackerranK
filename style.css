@@ -21,6 +21,10 @@ h1{
     margin-bottom: 0px;
 }
 
+.breadcrumb-link{
+  color: black;
+}
+
 #indexhead{
     margin-top: 0px;
     font-size: 45px;
