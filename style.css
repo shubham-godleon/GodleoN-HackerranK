@@ -120,6 +120,7 @@ h4{
 .card-title{
     text-align: left;
 }
-.navbar_bg{
-    background-color: #00bfa5aa;
-   }
+
+.bg-dark{
+    background-color: #00bfa5aa!important;
+}
