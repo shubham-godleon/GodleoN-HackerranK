@@ -15,14 +15,53 @@
   </head>
 
   <body>
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a class="breadcrumb-link" href="index.html">Home</a></li>
-        <li class="breadcrumb-item"><a class="breadcrumb-link" href="INDEX-1.html">Index</a></li>
-        <li class="breadcrumb-item active" aria-current="page">DP</li>
-      </ol>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="INDEX-1.html">Index</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="BASICS.html">Warmup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="LOGIC IMPLEMENTATION.html">Logic Implementation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="STRINGS.html">Strings!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SORTING.html">Sorting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="GREEDY.html">Greedy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="DP.html">DP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Constructive.html">Constructive Algos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bits.html">Bits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Debug.html">Debugging</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <h1 class="display-3" id="startH1">Dynamic Programming</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="INDEX-1.html">Index</a></li>
+          <li class="breadcrumb-item active" aria-current="page">DP</li>
+        </ol>
+      </nav>
     <h4>Dynamic Programming is one of the best algorithms around there. It has the power to utilize every other algorithm and optimize it. The essence of DP lies in the fact of avoiding repetitions which lead to greater time complexity. In DP we study how to save the previous data for a particular state of the function for a future repetitive use. There are almost no contests which brag about they don't have a DP question in their set.</h4>
 
       <div class="container">
@@ -33,11 +72,11 @@
 
             <ol class="list-group scrollable">
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/coin-change" target="_blank">1. Coin Change Problem</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/coin-change">1. Coin Change Problem</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/construct-the-array" target="_blank">2. Construct The Array</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/construct-the-array">2. Construct The Array</a></li>
 
-              <li class="list-group-item"><a href="https://www.hackerrank.com/challenges/sam-and-substrings" target="_blank">3. Sam And Substrings</a></li>
+              <li class="list-group-item"><a class= "list-link" href="https://www.hackerrank.com/challenges/sam-and-substrings">3. Sam And Substrings</a></li>
 
             </ol>
 
@@ -47,8 +86,15 @@
 
       </div>
       <p id="footer">
-        This website is hosted by GitHub. <a href="https://github.com/ritwikranjan/GodleoN-HackerranK">View Repository</a>
+        This website is hosted by GitHub. <a class= "list-link" href="https://github.com/ritwikranjan/GodleoN-HackerranK">View Repository</a>
       </p>
+      <script type="text/javascript">
+        $(document).on('click', ".list-link", function(e){
+          e.preventDefault();
+          var url = $(this).attr('href');
+          window.open(url, '_blank');
+        });
+      </script>
   </body>
 
 </html>
